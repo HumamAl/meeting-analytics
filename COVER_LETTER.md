@@ -4,7 +4,7 @@ Hi,
 
 Two modules left on an 85%-complete codebase — and a 51-commit divergence on the MindScope branch to resolve first. Built a working demo showing my approach:
 
-**Built this for your project:** {VERCEL_URL}
+**Built this for your project:** https://meeting-analytics-kappa.vercel.app
 
 The demo covers the two-stage LLM cascade (Stage 1 screening → Stage 2 adjudication), confidence threshold routing, and the bias detection feed with all 12 bias types. Built the WMF Agent Dashboard on the same cascade pattern — replaced a 4-hour manual review process.
 
@@ -30,7 +30,7 @@ GitHub: https://github.com/HumamAl — full-stack projects across Next.js, Pytho
 
 Stack overlap with your engine: Next.js/React (frontend), Python Flask (backend API layer), TypeScript/Node.js (real-time services), Claude API (LLM integration).
 
-Built a working demo for your project to show my approach: {VERCEL_URL}
+Built a working demo for your project to show my approach: https://meeting-analytics-kappa.vercel.app
 
 I've shipped production apps with structured AI output pipelines, WebSocket-driven dashboards, and multi-stage LLM cascade architectures.
 
@@ -62,7 +62,7 @@ Full demo: https://wmf-agent-dashboard.vercel.app
 
 **Q1: Describe a project where you took over a production codebase mid-sprint and shipped features. What was the LOC, stack, and timeline?**
 
-Built a working demo to show my approach to this engagement: {VERCEL_URL}
+Built a working demo to show my approach to this engagement: https://meeting-analytics-kappa.vercel.app
 
 Most relevant mid-sprint takeover: inherited a partially-built fleet maintenance SaaS — 6 modules, ~12,000 LOC, Next.js/TypeScript. Previous dev had left mid-sprint with 3 modules half-built, no tests, broken state management. Ran the build, mapped the data model, identified the broken contracts, then shipped the remaining 3 modules (work orders, preventive maintenance scheduling, parts inventory) in 11 days. No rewrites — extended what was there.
 

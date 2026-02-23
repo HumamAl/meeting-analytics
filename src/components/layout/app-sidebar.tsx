@@ -3,11 +3,23 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { LayoutDashboard, ChevronLeft, ChevronRight } from "lucide-react";
+import {
+  Activity,
+  Brain,
+  LineChart,
+  FileText,
+  Calendar,
+  ChevronLeft,
+  ChevronRight,
+} from "lucide-react";
 import { useState } from "react";
 
 const navItems = [
-  { href: "/", label: "Dashboard", icon: LayoutDashboard },
+  { href: "/", label: "Live Meeting", icon: Activity },
+  { href: "/biases", label: "Bias Feed", icon: Brain },
+  { href: "/timeline", label: "Signal Timeline", icon: LineChart },
+  { href: "/reports", label: "Reports", icon: FileText },
+  { href: "/sessions", label: "Sessions", icon: Calendar },
 ];
 
 interface SidebarContentProps {
@@ -22,12 +34,12 @@ export function SidebarContent({ collapsed }: SidebarContentProps) {
       {/* Logo */}
       <div className="p-4 border-b border-border/60 flex items-center gap-3">
         <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
-          <span className="text-primary font-bold text-sm">A</span>
+          <Brain className="w-4 h-4 text-primary" />
         </div>
         {!collapsed && (
           <div className="overflow-hidden">
-            <h1 className="font-semibold text-sm leading-tight">App Name</h1>
-            <p className="text-[10px] text-muted-foreground">Demo App</p>
+            <h1 className="font-semibold text-sm leading-tight">MeetingScope</h1>
+            <p className="text-[10px] text-muted-foreground">Meeting Analytics</p>
           </div>
         )}
       </div>
